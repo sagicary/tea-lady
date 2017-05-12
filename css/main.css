@@ -1,7 +1,4 @@
 /* Escribe acá tus estilos*/
-body {
-	font-family: 'Dancing Script', cursive;
-}
-input{
+body, input, select {
 	font-family: 'Dancing Script', cursive;
 }
