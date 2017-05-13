@@ -8,7 +8,7 @@ function mostrarData(){
 	var check=document.getElementById("check").checked;
 	console.log(check);
 	var mostrar = document.getElementById("clientes");
-	if (nombre=="" || apellido=="" || email=="" || dire=="" || fono=="" || te=="false" || check==""){
+	if (nombre=="" || apellido=="" || email=="" || dire=="" || fono=="" || te=="" || check==""){
 		alert("No puede dejar campos vacios");
 	}else{
 		mostrar.innerHTML = ("<center><p><h1>Datos usuario: </h1><p><b>Nombre: </b>"+nombre+
