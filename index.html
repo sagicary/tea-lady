@@ -4,17 +4,17 @@
 	<meta charset="UTF-8">
 	<title>Té como señora</title>
 	<link rel="stylesheet" href="css/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-</head>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Courgette" rel="stylesheet">
+	</head>
 <body>
 	<header>
 		<h1 align="center">Tetería Té como Señora</h1><p>
 		<center><img src="img/tea_time.png" width="250" height="150"></center>
 	</header>
 	<section id="formulario" align="center">
-		<p>Bienvenid@s a la Tetería Té como Señora. Ofrecemos los mejores tés del mercado a bajos precios, gracias a nuestro sistema de venta online y cajas del mes.</p>
+		<p>Bienvenid@s a la Tetería Té como Señora. <br>Ofrecemos los mejores tés del mercado a bajos precios, gracias a nuestro sistema de venta online y cajas del mes.</p>
 		<p>Si deseas suscribirte a nuestra caja de té mensual, rellena tus datos en el formulario</p>
-		<form action="" name="form1">
+		<form action="" name="form1" class="formu">
 			<label for="Nombre"> Nombre:</label>
 			<input type="text" id="nombre" required><p>
 			<label for="Apellido"> Apellido:</label>
@@ -32,9 +32,9 @@
 				<option value="Pack frutales (Hierbas y té con aromatizado con fruta)">Pack frutales (Hierbas y té con aromatizado con fruta)</option>
 				<option value="Pack variedades (Té verde, rojo y blanco)">Pack variedades (Té verde, rojo y blanco)</option>
 			</select><p>
-			<label for=""></label>
+			<label for="checked"></label>
 			<input type="checkbox" id="check"> Recibe nuestro newsletter mensual con actividades y sorteos <p>
-			<button type="submit" form="form1" value="Submit" onclick="mostrarData()">Enviar</button>
+			<button type="submit" form="form1" value="Submit" onclick="mostrarData()"">Enviar</button>
 		</form>
 	</section>
 	<section id="clientes">
@@ -42,6 +42,14 @@
 	</section>
 	<section id="productos">
 		<!-- Acá puedes crear lo que quieras-->
+		<h1 align="center">Productos</h1>
+		<p>Tenemos el mejor té.
+		<p>
+		Nuestros productos nos hacen los líderes en el mercado, con nuestras variedades: <p> <br><li>Pack de té clásico (Té negro)</li>
+		<li>Pack frutales (Hierbas y té con aromatizado con fruta)</li>
+		<li>Pack variedades (Té verde, rojo y blanco)</li><br>
+		<h1 align="center">Si eres adicto a nuestro té, no olvides recomendarnos!</h1>
+		<center><img src="img/kawai_tea_time.png" width="400" height="200"></center></p>
 	</section>
 	<script src="js/main.js"></script>
 </body>

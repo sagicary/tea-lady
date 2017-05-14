@@ -1,4 +1,92 @@
 /* Escribe acá tus estilos*/
-body, input, select {
-	font-family: 'Dancing Script', cursive;
+* {
+	font-family: 'Courgette';
+	margin:0 auto;
 }
+header {
+	background-color: #F8D2F3;
+	font-family: 'Dancing Script';
+	
+}
+
+form{
+	margin-top: 20px;
+}
+
+section > p{
+	background-color: lightblue;
+	color: green;
+	margin: 0;
+}
+#formulario{
+	background-color: lightblue;
+	width: 80%
+	margin=0 auto;
+	padding: 20px
+	margin-top:20px;
+}
+#formulario input, select{
+	color: black;
+	display: block;
+	width: 20%;
+	padding: 5px;
+	background-color: white;
+	border: 1px solid rgba(245,245,245,0);
+	box-sizing: border-box;
+	color: black;
+}
+#formulario label{
+	font-family: 'Courgette', bold;
+}
+#formulario input[type="text"]{
+	color: black;
+}
+#formulario input[type="tel"]{
+	color: black;
+}
+#formulario input[type="email"]{
+	color: black;
+}
+
+.formu select option{
+	font-family: 'Courgette', bold;
+	color: black;
+}
+
+#formulario input[type='checkbox']{
+	background-color: rgba(255,255,255, 0.2);
+	width: auto;
+	position: relative;
+	top: 16px;
+	right: 222px;
+}
+
+button {
+    background-color: white;
+    border: solid;
+    color: green;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#clientes{
+	background-color: #F8D2F3;
+	padding: 20px;
+}
+#productos{
+	text-align: left;
+	background-color: lightblue;
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-bottom: 30px;
+	color:green;
+}
+
+
+
